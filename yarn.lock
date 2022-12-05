@@ -396,6 +396,11 @@
   dependencies:
     "delayed-stream" "~1.0.0"
 
+"commander@^6.1.0":
+  "integrity" "sha512-U7VdrJFnJgo4xjrHpTzu0yrHPGImdsmD95ZlgYSEajAn2JKzDhDTPG9kBTefmObL2w/ngeZnilk+OV9CG3d7UA=="
+  "resolved" "https://artifactory.chrobinson.com/artifactory/api/npm/registry/commander/-/commander-6.2.1.tgz"
+  "version" "6.2.1"
+
 "concat-map@0.0.1":
   "integrity" "sha1-2Klr13/Wjfd5OnMDajug1UBdR3s="
   "resolved" "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
@@ -1230,6 +1235,15 @@
   "resolved" "https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz"
   "version" "5.0.1"
 
+"json2csv@^5.0.7":
+  "integrity" "sha512-YRZbUnyaJZLZUJSRi2G/MqahCyRv9n/ds+4oIetjDF3jWQA7AG7iSeKTiZiCNqtMZM7HDyt0e/W6lEnoGEmMGA=="
+  "resolved" "https://artifactory.chrobinson.com/artifactory/api/npm/registry/json2csv/-/json2csv-5.0.7.tgz"
+  "version" "5.0.7"
+  dependencies:
+    "commander" "^6.1.0"
+    "jsonparse" "^1.3.1"
+    "lodash.get" "^4.4.2"
+
 "jsonld@^1.5.0":
   "integrity" "sha512-f0rusl5v8aPKS3jApT5fhYsdTC/JpyK1PoJ+ZtYYtZXoyb1J0Z///mJqLwrfL/g4NueFSqPymDYIi1CcSk7b8Q=="
   "resolved" "https://registry.npmjs.org/jsonld/-/jsonld-1.8.1.tgz"
@@ -1249,6 +1263,11 @@
     "chalk" "^2.4.2"
     "JSV" "^4.0.2"
     "underscore" "^1.9.1"
+
+"jsonparse@^1.3.1":
+  "integrity" "sha512-POQXvpdL69+CluYsillJ7SUhKvytYjW9vG/GKpnf+xP8UWgYEM/RaMzHHofbALDiKbbP1W8UEYmgGl39WkPZsg=="
+  "resolved" "https://artifactory.chrobinson.com/artifactory/api/npm/registry/jsonparse/-/jsonparse-1.3.1.tgz"
+  "version" "1.3.1"
 
 "jsprim@^1.2.2":
   "integrity" "sha1-MT5mvB5cwG5Di8G3SZwuXFastqI="
@@ -1331,6 +1350,11 @@
     "ws" "3.3.2"
     "yargs" "3.32.0"
     "yargs-parser" "^18.1.3"
+
+"lodash.get@^4.4.2":
+  "integrity" "sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ=="
+  "resolved" "https://artifactory.chrobinson.com/artifactory/api/npm/registry/lodash.get/-/lodash.get-4.4.2.tgz"
+  "version" "4.4.2"
 
 "lodash.isequal@^4.5.0":
   "integrity" "sha1-QVxEePK8wwEgwizhDtMib30+GOA="
@@ -1617,6 +1641,13 @@
   "integrity" "sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA=="
   "resolved" "https://registry.npmjs.org/progress/-/progress-2.0.3.tgz"
   "version" "2.0.3"
+
+"prompt-sync@^4.2.0":
+  "integrity" "sha512-BuEzzc5zptP5LsgV5MZETjDaKSWfchl5U9Luiu8SKp7iZWD5tZalOxvNcZRwv+d2phNFr8xlbxmFNcRKfJOzJw=="
+  "resolved" "https://artifactory.chrobinson.com/artifactory/api/npm/registry/prompt-sync/-/prompt-sync-4.2.0.tgz"
+  "version" "4.2.0"
+  dependencies:
+    "strip-ansi" "^5.0.0"
 
 "proxy-from-env@^1.0.0":
   "integrity" "sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg=="
@@ -2008,7 +2039,7 @@
   dependencies:
     "ansi-regex" "^3.0.0"
 
-"strip-ansi@^5.1.0", "strip-ansi@^5.2.0":
+"strip-ansi@^5.0.0", "strip-ansi@^5.1.0", "strip-ansi@^5.2.0":
   "integrity" "sha512-DuRs1gKbBqsMKIZlrffwlug8MHkcnpjs5VPmL1PAh+mA30U0DTotfDZ0d2UUsXpPmPmMMJ6W773MaA3J+lbiWA=="
   "resolved" "https://registry.npmjs.org/strip-ansi/-/strip-ansi-5.2.0.tgz"
   "version" "5.2.0"

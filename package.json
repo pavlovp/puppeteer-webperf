@@ -16,7 +16,9 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
+    "json2csv": "^5.0.7",
     "lighthouse": "^6.0.0",
+    "prompt-sync": "^4.2.0",
     "puppeteer": "^3.0.1"
   }
 }
